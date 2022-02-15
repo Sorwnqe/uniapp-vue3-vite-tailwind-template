@@ -543,14 +543,6 @@
     qrcode-terminal "^0.12.0"
     ws "^8.2.0"
 
-"@dcloudio/uni-cli-i18n@^2.0.1-33920220208001":
-  version "2.0.1-33920220208001"
-  resolved "https://registry.npmmirror.com/@dcloudio/uni-cli-i18n/-/uni-cli-i18n-2.0.1-33920220208001.tgz#974e45171cad0f34f2cadedb917a1b4315fe70e4"
-  integrity sha512-rtjAvXTGTinkPd4gm5iW3EIeH2OJiD0a7vooVAW5+6RPkK7uuitP6DZcPgIUaGpeCfUQAEwBo/2xjrURlSssxw==
-  dependencies:
-    i18n "^0.13.3"
-    os-locale-s-fix "^1.0.8-fix-1"
-
 "@dcloudio/uni-cli-shared@3.0.0-alpha-3031120220208001", "@dcloudio/uni-cli-shared@^3.0.0-alpha-3030820220114011":
   version "3.0.0-alpha-3031120220208001"
   resolved "https://registry.npmmirror.com/@dcloudio/uni-cli-shared/-/uni-cli-shared-3.0.0-alpha-3031120220208001.tgz#df6a24c34c3dcaad259376cd36b831e09cc25078"
@@ -999,6 +991,11 @@
   version "4.0.0"
   resolved "https://registry.npmmirror.com/@types/parse-json/download/@types/parse-json-4.0.0.tgz?cache=0&sync_timestamp=1637269948744&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40types%2Fparse-json%2Fdownload%2F%40types%2Fparse-json-4.0.0.tgz"
   integrity sha1-L4u0QUNNFjs1+4/9zNcTiSf/uMA=
+
+"@types/tailwindcss@^2.2.4":
+  version "2.2.4"
+  resolved "https://registry.npmmirror.com/@types/tailwindcss/-/tailwindcss-2.2.4.tgz#c3bca7d265e608ffc50a6d1a4932b5b53be14553"
+  integrity sha512-8mIk+0BoReKiaBI4e3hjaz9YDQto+rdZ2eEExHf6AfS38FZcALQ6s8mTd+74N8BtBaLnTzLdNe5GbkzObWlSXw==
 
 "@types/vue@^2.0.0":
   version "2.0.0"
@@ -3681,18 +3678,6 @@ husky@^7.0.4:
   resolved "https://registry.npmmirror.com/husky/download/husky-7.0.4.tgz"
   integrity sha1-JCBIJF3EnI+xvwzHz7mN1yJTFTU=
 
-i18n@^0.13.3:
-  version "0.13.4"
-  resolved "https://registry.npmmirror.com/i18n/-/i18n-0.13.4.tgz#8a434688efd04b8f3e4bcb49bbaf8a2828c57329"
-  integrity sha512-GZnXWeA15jTi9gc1jfgrJcSrNYDg7qbJXSYMuibqPYb1ThORmGCeM+gL6LrDagYRHh87/q/D0jRSOhAfv6wAow==
-  dependencies:
-    debug "^4.3.3"
-    make-plural "^7.0.0"
-    math-interval-parser "^2.0.1"
-    messageformat "^2.3.0"
-    mustache "^4.2.0"
-    sprintf-js "^1.1.2"
-
 iconv-lite@0.4.24:
   version "0.4.24"
   resolved "https://registry.npmmirror.com/iconv-lite/-/iconv-lite-0.4.24.tgz#2022b4b25fbddc21d2f524974a474aafe733908b"
@@ -3792,11 +3777,6 @@ ini@^1.3.2, ini@^1.3.4, ini@^1.3.5, ini@~1.3.0:
   version "1.3.8"
   resolved "https://registry.nlark.com/ini/download/ini-1.3.8.tgz"
   integrity sha1-op2kJbSIBvNHZ6Tvzjlyaa8oQyw=
-
-invert-kv@^3.0.0:
-  version "3.0.1"
-  resolved "https://registry.npmmirror.com/invert-kv/-/invert-kv-3.0.1.tgz#a93c7a3d4386a1dc8325b97da9bb1620c0282523"
-  integrity sha512-CYdFeFexxhv/Bcny+Q0BfOV+ltRlJcd4BBZBYFX/O0u4npJrgZtIcjokegtiSMAvlMTJ+Koq0GBCc//3bueQxw==
 
 ip@^1.1.5:
   version "1.1.5"
@@ -4067,13 +4047,6 @@ known-css-properties@^0.24.0:
   resolved "https://registry.npmmirror.com/known-css-properties/download/known-css-properties-0.24.0.tgz"
   integrity sha512-RTSoaUAfLvpR357vWzAz/50Q/BmHfmE6ETSWfutT0AJiw10e6CmcdYRQJlLRd95B53D0Y2aD1jSxD3V3ySF+PA==
 
-lcid@^3.0.0:
-  version "3.1.1"
-  resolved "https://registry.npmmirror.com/lcid/-/lcid-3.1.1.tgz#9030ec479a058fc36b5e8243ebaac8b6ac582fd0"
-  integrity sha512-M6T051+5QCGLBQb8id3hdvIW8+zeFV2FyBGFS9IEK5H9Wt4MueD4bW1eWikpHgZp+5xR3l5c8pZUkQsIA0BFZg==
-  dependencies:
-    invert-kv "^3.0.0"
-
 levn@^0.4.1:
   version "0.4.1"
   resolved "https://registry.nlark.com/levn/download/levn-0.4.1.tgz"
@@ -4304,18 +4277,6 @@ make-fetch-happen@^9.1.0:
     socks-proxy-agent "^6.0.0"
     ssri "^8.0.0"
 
-make-plural@^4.3.0:
-  version "4.3.0"
-  resolved "https://registry.npmmirror.com/make-plural/-/make-plural-4.3.0.tgz#f23de08efdb0cac2e0c9ba9f315b0dff6b4c2735"
-  integrity sha512-xTYd4JVHpSCW+aqDof6w/MebaMVNTVYBZhbB/vi513xXdiPT92JMVCo0Jq8W2UZnzYRFeVbQiQ+I25l13JuKvA==
-  optionalDependencies:
-    minimist "^1.2.0"
-
-make-plural@^7.0.0:
-  version "7.1.0"
-  resolved "https://registry.npmmirror.com/make-plural/-/make-plural-7.1.0.tgz#8a0381ff8c9be4f074e0acdc42ec97639c2344f9"
-  integrity sha512-PKkwVlAxYVo98NrbclaQIT4F5Oy+X58PZM5r2IwUSCe3syya6PXkIRCn2XCdz7p58Scgpp50PBeHmepXVDG3hg==
-
 map-obj@^1.0.0:
   version "1.0.1"
   resolved "https://registry.npmmirror.com/map-obj/download/map-obj-1.0.1.tgz"
@@ -4325,11 +4286,6 @@ map-obj@^4.0.0:
   version "4.3.0"
   resolved "https://registry.npmmirror.com/map-obj/download/map-obj-4.3.0.tgz"
   integrity sha1-kwT5Buk/qucIgNoQKp8d8OqLsFo=
-
-math-interval-parser@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.npmmirror.com/math-interval-parser/-/math-interval-parser-2.0.1.tgz#e22cd6d15a0a7f4c03aec560db76513da615bed4"
-  integrity sha512-VmlAmb0UJwlvMyx8iPhXUDnVW1F9IrGEd9CIOmv+XL8AErCUUuozoDMrgImvnYt2A+53qVX/tPW6YJurMKYsvA==
 
 mathml-tag-names@^2.1.3:
   version "2.1.3"
@@ -4395,25 +4351,6 @@ merge@^2.1.1:
   version "2.1.1"
   resolved "https://registry.nlark.com/merge/download/merge-2.1.1.tgz"
   integrity sha1-We9L9+Cz6HkYZDboSBwGpsFiypg=
-
-messageformat-formatters@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.npmmirror.com/messageformat-formatters/-/messageformat-formatters-2.0.1.tgz#0492c1402a48775f751c9b17c0354e92be012b08"
-  integrity sha512-E/lQRXhtHwGuiQjI7qxkLp8AHbMD5r2217XNe/SREbBlSawe0lOqsFb7rflZJmlQFSULNLIqlcjjsCPlB3m3Mg==
-
-messageformat-parser@^4.1.2:
-  version "4.1.3"
-  resolved "https://registry.npmmirror.com/messageformat-parser/-/messageformat-parser-4.1.3.tgz#b824787f57fcda7d50769f5b63e8d4fda68f5b9e"
-  integrity sha512-2fU3XDCanRqeOCkn7R5zW5VQHWf+T3hH65SzuqRvjatBK7r4uyFa5mEX+k6F9Bd04LVM5G4/BHBTUJsOdW7uyg==
-
-messageformat@^2.3.0:
-  version "2.3.0"
-  resolved "https://registry.npmmirror.com/messageformat/-/messageformat-2.3.0.tgz#de263c49029d5eae65d7ee25e0754f57f425ad91"
-  integrity sha512-uTzvsv0lTeQxYI2y1NPa1lItL5VRI8Gb93Y2K2ue5gBPyrbJxfDi/EYWxh2PKv5yO42AJeeqblS9MJSh/IEk4w==
-  dependencies:
-    make-plural "^4.3.0"
-    messageformat-formatters "^2.0.1"
-    messageformat-parser "^4.1.2"
 
 methods@~1.1.2:
   version "1.1.2"
@@ -4620,11 +4557,6 @@ multimatch@^4.0.0:
     array-union "^2.1.0"
     arrify "^2.0.1"
     minimatch "^3.0.4"
-
-mustache@^4.2.0:
-  version "4.2.0"
-  resolved "https://registry.npmmirror.com/mustache/-/mustache-4.2.0.tgz#e5892324d60a12ec9c2a73359edca52972bf6f64"
-  integrity sha512-71ippSywq5Yb7/tVYyGbkBggbU8H3u5Rz56fH60jGFgr8uHwxs+aSKeqmluIVzM0m0kB7xQjKS6qPfd0b2ZoqQ==
 
 nan@^2.13.2:
   version "2.15.0"
@@ -4849,13 +4781,6 @@ optionator@^0.9.1:
     prelude-ls "^1.2.1"
     type-check "^0.4.0"
     word-wrap "^1.2.3"
-
-os-locale-s-fix@^1.0.8-fix-1:
-  version "1.0.8-fix-1"
-  resolved "https://registry.npmmirror.com/os-locale-s-fix/-/os-locale-s-fix-1.0.8-fix-1.tgz#7db4f9fc7cea29e9266900ea0bc72aaff13ff14a"
-  integrity sha512-Sv0OvhPiMutICiwORAUefv02DCPb62IelBmo8ZsSrRHyI3FStqIWZvjqDkvtjU+lcujo7UNir+dCwKSqlEQ/5w==
-  dependencies:
-    lcid "^3.0.0"
 
 p-limit@^1.1.0:
   version "1.3.0"
@@ -5093,11 +5018,6 @@ postcss-class-rename-postcss8@^1.0.2:
   resolved "https://registry.npmmirror.com/postcss-class-rename-postcss8/-/postcss-class-rename-postcss8-1.0.2.tgz#2a5099448655f0e89aa934cfb93b8d4c0b19fe09"
   integrity sha512-NzEn57PW3WnNKVc3SWV0FMvn0Pd37q4E13q9RXCTRYcQ2gcoM5qxOSYem2qmk83w6Zp+D+yzVf0XfMOYuVOXWA==
 
-postcss-class-rename@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.npmmirror.com/postcss-class-rename/-/postcss-class-rename-1.0.1.tgz#5ff90cc78f6800b5971bed23d25db929a7b40b02"
-  integrity sha512-p7mjgoinuuKL7wvxzrj3BD5wN9mHUNNwHCS7sEMd0BsrTC+ly07ie9tqLzEeZEEYhBGWV8FJK69AHI5S/1FV9g==
-
 postcss-comment@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmmirror.com/postcss-comment/-/postcss-comment-2.0.0.tgz#6c8808e64cee25c33146518a8a82944b05f11e6f"
@@ -5218,13 +5138,6 @@ postcss-nested@^4:
   dependencies:
     postcss "^7.0.32"
     postcss-selector-parser "^6.0.2"
-
-postcss-rename@^0.6.0:
-  version "0.6.0"
-  resolved "https://registry.npmmirror.com/postcss-rename/-/postcss-rename-0.6.0.tgz#40239fa3188e921b52c649a8943feaffb4682199"
-  integrity sha512-cxQ8Cx1kQFF/9Jz7CkeqgeeJ2Q0+3uvJimwKIdCBr+lwgdmaJfdW/DIzXXLYNOvrzXpAccW+YPuRzonV7+zKaA==
-  dependencies:
-    postcss-selector-parser "^6.0.4"
 
 postcss-resolve-nested-selector@^0.1.1:
   version "0.1.1"
@@ -6084,11 +5997,6 @@ split@^1.0.0:
   dependencies:
     through "2"
 
-sprintf-js@^1.1.2:
-  version "1.1.2"
-  resolved "https://registry.npmmirror.com/sprintf-js/-/sprintf-js-1.1.2.tgz#da1765262bf8c0f571749f2ad6c26300207ae673"
-  integrity sha512-VE0SOVEHCk7Qc8ulkWw3ntAzXuqf7S2lvwQaDLRnUeIEaKNQJzV6BwmLKhOqT61aGhfUMrXeaBk+oDGCzvhcug==
-
 sshpk@^1.7.0:
   version "1.17.0"
   resolved "https://registry.npmmirror.com/sshpk/download/sshpk-1.17.0.tgz#578082d92d4fe612b13007496e543fa0fbcbe4c5"
@@ -6350,6 +6258,13 @@ tailwind-one@^1.0.8:
   version "1.0.8"
   resolved "https://registry.npmmirror.com/tailwind-one/-/tailwind-one-1.0.8.tgz#e9da151e76b9b6ee689169824218cac82bdd959e"
   integrity sha512-+iBvJ8BdPLJ3Bcq27T0vi+Je1X7D2lfT5ihd7HR8g81pj/ATlD8pNYOzgPZ8/TfwTbUSfJ9IVxf4D7UPcsEfQQ==
+
+tailwindcss-miniprogram-preset@^2.1.2:
+  version "2.1.2"
+  resolved "https://registry.npmmirror.com/tailwindcss-miniprogram-preset/-/tailwindcss-miniprogram-preset-2.1.2.tgz#678ac173c7d2b4c7d98deb1edbdc65c7afd1189d"
+  integrity sha512-b4XBYLi7XicOi8SWjHPbYBaIbiSH6/AqydKGI7ZiiNoK9XKOz74HA615DdB6Q6nUJzVmKd1Hdc9/HQn1VscjiA==
+  dependencies:
+    "@types/tailwindcss" "^2.2.4"
 
 tailwindcss@^3.0.22:
   version "3.0.22"
