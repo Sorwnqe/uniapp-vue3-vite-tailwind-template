@@ -1,12 +1,11 @@
-# 本项目来自 vue/cli
-
 # ts+vue3+vite+tailwind
 
 ## 运行
 
-首次需要
-
+首次需要运行
+```
 yarn husky
+```
 
 ```
 yarn dev
