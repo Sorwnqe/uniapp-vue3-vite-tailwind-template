@@ -1,6 +1,7 @@
 import { resolve } from 'path';
 import { defineConfig } from 'vite';
 import uni from '@dcloudio/vite-plugin-uni';
+import postcssConfig from './postcss.config';
 
 function pathResolve(dir: string) {
   return resolve(process.cwd(), '.', dir);
@@ -26,6 +27,9 @@ export default defineConfig({
         replacement: '@dcloudio/uni-ui/lib/',
       },
     ],
+  },
+  css: {
+    postcss: postcssConfig,
   },
   plugins: [uni()],
 });

@@ -16,11 +16,16 @@ module.exports = {
     require('autoprefixer')({
       remove: process.env.UNI_PLATFORM !== 'h5',
     }),
-    require('tailwindcss')({ config: './tailwind.config.js' }),
+    require('tailwindcss')({
+      config: './tailwind.config.js',
+    }),
+
+    // #ifdef MP
     require('postcss-class-rename-postcss8')({
       '\\\\.': '_',
       '\\*': 'view',
     }),
+    // #endif
 
     uniPostcssPlugin(),
   ],
