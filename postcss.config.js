@@ -1,6 +1,16 @@
 const { uniPostcssPlugin } = require('@dcloudio/uni-cli-shared');
 module.exports = {
   plugins: [
+    /**
+     * rem转rpx
+     *
+     * npm install "postcss-rem-to-responsive-pixel"
+     */
+    // require('postcss-rem-to-responsive-pixel')({
+    //   rootValue: 32,
+    //   propList: ['*'],
+    //   transformUnit: 'rpx',
+    // }),
     require('postcss-import')({
       resolve(id) {
         if (id.startsWith('~@/')) {

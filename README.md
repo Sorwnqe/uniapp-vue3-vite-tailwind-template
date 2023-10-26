@@ -47,3 +47,4 @@ yarn log
 ```
 
 ### .vscode里包含uni-app的代码提示，不要加入到gitignore中，忽略文件需要单独指定
+### 配置文件全部隐藏，想要开启修改.vscode/settings.json的files.exclude即可
